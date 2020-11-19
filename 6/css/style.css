@@ -104,6 +104,22 @@ img {
   text-transform: uppercase;
   color: #000000;
 }
+.main-nav__item-link {
+  display: block;
+  padding: 23px 20px;
+  color: #111111;
+  text-decoration: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+.main-nav__item-link:hover {
+  opacity: 0.6;
+}
+.main-nav__item-link:active {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #68B738;
+          text-decoration-color: #68B738;
+  opacity: 0.3;
+}
 .intro {
   font-family: "Oswald", sans-serif;
   font-style: normal;
