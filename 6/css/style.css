@@ -1,12 +1,17 @@
 body {
   margin: 0;
   padding: 0;
+  min-width: 320px;
   font-family: "Arial", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
   color: var(--basic-black);
+}
+.wrapper {
+  width: auto;
+  padding: 0 20px;
 }
 a {
   text-decoration: none;
@@ -54,21 +59,11 @@ img {
 .header {
   grid-area: header;
 }
-.header__wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
 .page-main {
   grid-area: content;
 }
 .page-footer {
   grid-area: footer;
-}
-.page-footer__wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
 }
 .page-footer__copyright {
   font-family: "Arial", sans-serif;
@@ -129,12 +124,6 @@ img {
   background-repeat: no-repeat;
   margin-bottom: 22px;
 }
-.intro__wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-  text-align: center;
-}
 .intro__title {
   font-weight: inherit;
   font-size: 36px;
@@ -150,12 +139,6 @@ img {
   font-style: normal;
   font-weight: normal;
   margin-bottom: 27px;
-}
-.catalog__wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-  box-sizing: border-box;
 }
 .catalog__list {
   padding: 0;
@@ -189,11 +172,6 @@ img {
   font-style: normal;
   font-weight: normal;
 }
-.advantage__wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
 .advantage__title {
   font-weight: inherit;
   font-size: 36px;
@@ -214,11 +192,6 @@ img {
   font-style: normal;
   font-weight: normal;
   background-color: #eaeaea;
-}
-.case__wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
 }
 .case__title {
   font-family: "Oswald", sans-serif;
@@ -276,10 +249,6 @@ img {
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: normal;
-}
-.contacts__wrapper {
-  padding: 28px 20px 22px;
-  margin: 0 auto;
 }
 .contacts__info {
   font-weight: inherit;
