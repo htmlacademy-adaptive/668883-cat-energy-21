@@ -10,7 +10,8 @@ body {
   color: var(--basic-black);
 }
 .wrapper {
-  width: auto;
+  width: 290px;
+  margin: 0 auto;
   padding: 0 20px;
 }
 a {
@@ -49,8 +50,12 @@ img {
   src: local("Oswald Medium"), local("Oswald-Medium"), url("../fonts/oswaldmedium.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/oswaldmedium.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+.page {
+  height: 100%;
+}
 .page__body {
-  width: 320px;
+  min-height: 100%;
+  margin: 0;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: "header" "content" "footer";
