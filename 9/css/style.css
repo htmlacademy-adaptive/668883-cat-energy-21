@@ -614,6 +614,12 @@ img {
     border-top: none;
     background-image: linear-gradient(to bottom, white 208px, transparent 208px), linear-gradient(to right, #f2f2f2 72%, #eaeaea 28%);
   }
+  .case__wrapper {
+    margin: 0 auto;
+    padding: 54px 110px 74px 110px;
+    box-sizing: border-box;
+    max-width: 1440px;
+  }
   .case__title {
     margin-bottom: 147px;
     grid-column: 1 / 1;
@@ -709,23 +715,21 @@ img {
   }
 }
 @media (min-width: 1440px) {
-  .contacts {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(2, 1fr);
-  }
   .contacts__map {
     background-color: #d9d9d9;
-    grid-column: 1 / -1;
-    grid-row: 1 / 1;
-    height: 400px;
+    min-height: 400px;
   }
   .contacts__wrapper {
-    grid-column: 1 / 2;
-    grid-row: 1 / 1;
-    z-index: 2;
+    margin: 0 auto;
+    padding: 54px 110px 74px 110px;
+    box-sizing: border-box;
+    max-width: 1440px;
+    position: relative;
   }
   .contacts__columns {
+    position: absolute;
+    left: 110px;
+    z-index: 2;
     margin-top: 95px;
     justify-content: space-around;
     background-color: #ffffff;
